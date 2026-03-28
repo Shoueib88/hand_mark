@@ -22,24 +22,24 @@ This system can be useful for:
 ## Project Structure 📂
 
 ```bash
-### hand_mark/
-##### │
-##### ├── data/                # Dataset (images / collected gestures)
-##### ├── model/               # Trained ML models
-##### ├── src/                 # Core source code
-##### │   ├── detection/       # Hand detection logic
-##### │   ├── training/        # Model training scripts
-##### │   └── inference/       # Real-time prediction
-##### │
-##### ├── app/                 # (Optional) Flutter frontend
-##### ├── backend/             # (Optional) Django backend
-##### │
-##### ├── requirements.txt     # Python dependencies
-##### └── README.md
+ hand_mark/
+ │
+ ├── data/                # Dataset (images / collected gestures)
+ ├── model/               # Trained ML models
+ ├── src/                 # Core source code
+ │   ├── detection/       # Hand detection logic
+ │   ├── training/        # Model training scripts
+ │   └── inference/       # Real-time prediction
+ │
+ ├── app/                 # (Optional) Flutter frontend
+ ├── backend/             # (Optional) Django backend
+ │
+ ├── requirements.txt     # Python dependencies
+ └── README.md
 ```
 ---
 ## Installation ⚙️
-
+---
 ### Clone the repository 1️⃣
 
 ```bash
